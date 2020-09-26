@@ -1,17 +1,14 @@
-// Copyright 2018 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
+//one of the most difficult codes to form till now , with the help of some references...
 
 import 'package:flutter/material.dart';
 import 'package:meta/meta.dart';
-
 import 'unit.dart';
 
 const _padding = EdgeInsets.all(16.0);
 
 /// [ConverterRoute] where users can input amounts to convert in one [Unit]
 /// and retrieve the conversion in another [Unit] for a specific [Category].
-///
+
 /// While it is named ConverterRoute, a more apt name would be ConverterScreen,
 /// because it is responsible for the UI at the route's destination.
 class ConverterRoute extends StatefulWidget {
